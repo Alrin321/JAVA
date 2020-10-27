@@ -1,0 +1,25 @@
+import java.util.*;
+class Sum
+{
+	public static void main(String args[])
+	{
+		int i,n,sum=0;
+		Scanner sc =new Scanner(System.in);
+		System.out.println("enter the value of n:");
+		n =sc.nextInt();
+		for(i=0;i<n;i++)
+		{
+			sum+=i;
+		}
+		System.out.println("sum of first" + n +" natural numbers is :"+sum);
+	}
+
+}
+
+
+output
+
+enter the value of n:45
+sum of first 45 natural numbers is :990
+
+
